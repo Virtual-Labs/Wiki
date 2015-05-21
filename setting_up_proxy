@@ -1,6 +1,7 @@
 This document is about how to set up proxy in the IIT-Guwahati workshop:
 
-1. Log into the system - People who are using lab's computers can log into the systems using following credentials:
+1. Log into the system - People who are using lab's computers can log
+into the systems using following credentials:
 
 usename: <user already created>
 password: abcd1234
@@ -11,14 +12,16 @@ a. First switch to user "root". To do that run the following command:
 
 $ sudo su -
 
-After running the command, it will ask for the password. Use 'vlabcse' as the password to login.
+After running the command, it will ask for the password. Use 'vlabcse'
+as the password to login.
 
 b. Set the proxy- Run the following command in the terminal:
 
 $ export http_proxy="http://vlabcse:vlabcse@202.141.80.30:3128"
 $ export https_proxy="http://vlabcse:vlabcse@202.141.80.30:3128"
 
-3. To access the internet- Open the browser and use the following credentials to  authenticate:
+3. To access the internet- Open the browser and use the following
+credentials to authenticate:
 
 username: vlabcse
 password: vlabcse
