@@ -15,8 +15,8 @@ After running the command, it will ask for the password. Use 'vlabcse' as the pa
 
 b. Set the proxy- Run the following command in the terminal:
 
-export http_proxy="http://vlabcse:vlabcse@202.141.80.30:3128"
-export https_proxy="http://vlabcse:vlabcse@202.141.80.30:3128"
+$ export http_proxy="http://vlabcse:vlabcse@202.141.80.30:3128"
+$ export https_proxy="http://vlabcse:vlabcse@202.141.80.30:3128"
 
 3. To access the internet- Open the browser and use the following credentials to  authenticate:
 
